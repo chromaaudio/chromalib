@@ -1,1 +1,1 @@
-# chroma-lib
+# chromalib

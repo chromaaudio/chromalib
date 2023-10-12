@@ -1,0 +1,5 @@
+add_executable(CircularBufferTests circular_buffer_tests.cpp)
+add_executable(AverageTimerTests avg_timer_tests.cpp)
+
+target_link_libraries(CircularBufferTests gtest gtest_main)
+target_link_libraries(AverageTimerTests gtest gtest_main)
