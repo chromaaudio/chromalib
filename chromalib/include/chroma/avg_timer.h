@@ -1,11 +1,12 @@
 #pragma once
 
-#include <iostream>
-#include <chrono>
+#include "chroma.h"
+
 
 namespace chroma {
   class avg_timer {
   public:
+    avg_timer() : m_name("Timer"), m_count(0) {}
     avg_timer(std::string _name) : m_name(_name), m_count(0) {}
     
     void start() {
